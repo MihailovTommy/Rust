@@ -82,3 +82,21 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+.red-button {
+    background-color: #5c0000; /* Красный цвет фона */
+    color: #fff; /* Белый цвет текста */
+    text-decoration: none;
+    padding: 10px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.red-button:hover {
+    background-color: #941a1a; /* Темно-красный цвет при наведении */
+}
